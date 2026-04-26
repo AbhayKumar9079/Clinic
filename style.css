@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #d9f0ee, #f2f6f8);
+  background: linear-gradient(135deg, #d0e5e3, #f2f6f8);
 }
 
 /* Navbar */
@@ -92,10 +92,335 @@ body {
 }
 
 .hero-right img {
-  width: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
+.about {
+  padding: 80px 60px;
+  background: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Image */
+.about-img img {
+  width: 450px;
   border-radius: 20px;
 }
 
+/* Content */
+.about-content {
+  max-width: 550px;
+}
+
+.about-tag {
+  background: #cde9e6;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  color: #0b2c4d;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0b5d57;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.services {
+  padding: 80px 60px;
+  background: #f7f9fb;
+}
+
+.services-container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Card */
+.service-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 260px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Icon */
+.icon {
+  background: #dce9f5;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+/* Text */
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0b2c4d;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+/* Section Styling */
+.contact-section {
+    background: linear-gradient(135deg, #e8f8f5, #ebf5fb);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Container */
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.contact-container h2 {
+    color: #0b2c4d;
+    margin-bottom: 10px;
+}
+
+.contact-container h3 {
+    color: #0b5d57;
+    margin-bottom: 20px;
+}
+
+/* Info */
+.contact-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* WhatsApp Button */
+.btn-whatsapp {
+    background: #2a9858;
+}
+
+.btn-whatsapp:hover {
+    background: #1ebe5d;
+}
+
+/* Instagram Button */
+.btn-instagram {
+    background: #3498db;
+}
+
+.btn-instagram:hover {
+    background: #2c80b4;
+}
+
+/* Call Button */
+.btn-call {
+    background: #2a9858;
+}
+
+.btn-call:hover {
+    background: #2a9858;
+}
+
+/* Map */
+.map {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Section */
+.testimonial-section {
+    background: linear-gradient(135deg, #ebf5fb, #e8f8f5);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    color: #0b2c4d;
+    margin-bottom: 30px;
+}
+
+/* Slider */
+.slider {
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Slides Container */
+.slides {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Each Slide */
+.slide {
+    min-width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card p {
+    font-size: 15px;
+    color: #555;
+}
+
+.card h4 {
+    margin-top: 10px;
+    color: #0b5d57;
+}
+/* ================= FOOTER ================= */
+.footer {
+    background: #0b2c4d;
+    color: #fff;
+    padding-top: 40px;
+}
+
+/* Container */
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Columns */
+.footer-col {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Links */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 8px 0;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+}
+
+/* Buttons */
+.footer-btn {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.whatsapp {
+    background:  #2a9858;
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background: #0b5d57;
+    font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-btn {
+        display: block;
+        width: 70%;
+        margin: 8px auto;
+    }
+}
 /* Responsive */
 @media (max-width: 900px) {
   .hero {
@@ -129,5 +454,30 @@ body {
 
   .menu-toggle {
     display: block;
+  }
+    .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .about {
+    padding: 60px 20px;
+  }
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .services {
+    padding: 60px 20px;
   }
 }
