@@ -229,7 +229,11 @@ body {
 /* Info */
 .contact-info p {
     font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px 0;
+}
+.contact-info p strong{
+  color: #0b5d57;
 }
 
 /* Buttons */
@@ -329,6 +333,7 @@ iframe {
 .card p {
     font-size: 15px;
     color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card h4 {
@@ -358,11 +363,15 @@ iframe {
     flex: 1;
     min-width: 220px;
 }
+.footer-col p{
+  font-family:monospace;
+}
 
 .footer-col h3,
 .footer-col h4 {
     color: #fff;
     margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Links */
@@ -377,6 +386,7 @@ iframe {
 
 .footer-col ul li a {
     color: #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
 
@@ -407,9 +417,16 @@ iframe {
     background: #0b5d57;
     font-size: 14px;
 }
+.footer-bottom p{
+  font-family: monospace;
+}
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
+  .btn {
+  padding: 10px 10px;
+}
+
     .footer-container {
         flex-direction: column;
         text-align: center;
